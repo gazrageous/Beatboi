@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  font-family: "Teko", sans-serif;
+  color: #56565d;
+  font-weight: 300;
+  height: 100vh;
+}
+
+h1 {
+  font-family: "Teko", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+header {
+  height: 10vh;
+  width: 100vw;
+  line-height: 10vh;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+header h1 {
+  margin-left: 85px;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+i:hover {
+  cursor: pointer;
+}
+
+footer {
+  height: 10vh;
+  width: 100%;
+  line-height: 10vh;
+  position: fixed;
+  top: 90vh;
+}
+
+footer p {
+  margin-left: 85px;
+  font-size: 22px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+footer img {
+  z-index: 1;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #56565d;
+}
+
+input {
+  background-color: #fff;
+  color: #56565d;
+  font-family: "Teko", sans-serif;
+  font-size: 16px;
+  border: 2px solid #56565d;
+  text-align: center;
+}
+
+button {
+  color: ghostwhite;
+  background-color: #56565d;
+  font-family: "Teko", sans-serif;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  height: 6vh;
+  width: 10vw;
+  line-height: 6vh;
+  margin-left: 5vw;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button i {
+  margin-top: 1vh;
+}
+
+div.logo {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.trans {
+  display: none;
+}
+
+div.ui {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 80vh;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  top: 10vh;
+}
+
+div.controls {
+  width: 25vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.score {
+  display: flex;
+}
+
+div.controls {
+  display: flex;
+  justify-content: center;
+}
+
+div.buttons {
+  display: flex;
+  align-items: center;
+}
+
+div.drumrack {
+  display: flex;
+  flex-direction: column;
+  line-height: 5vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+div.titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+div.titles p {
+  margin: 0 10px 10px 10px;
+}
+
+/* media queries */
+/*fix control of tablet*/
+/*figure out mobile*/
